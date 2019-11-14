@@ -22,3 +22,12 @@ def add_product(name, price, picture_link, description):
 
 
 add_product("iphone", 3000 , "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlJD8T1EZgy4-_qD2o4uXbQlm81K9SxyY0NvJEoPrKqHN3wqIU&s" , "iphone x")
+
+def update_product(id,name,):
+
+	product_object = session.query(
+		product).filter_by(
+		name=name).first()
+	product_object.
+
+
