@@ -61,3 +61,6 @@ def add_to_cart(ProductID):
         ProductID=ProductID)
     session.add(productID_object)
     session.commit()
+
+add_product("Name", 100, "https://bit.ly/2KGDzhF", "Some things")
+products = query_all()
